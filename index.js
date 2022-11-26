@@ -73,9 +73,9 @@ var data = [{
 
 // ORDERBY method
 
-database.select().orderBy("id","DESC").table("products").then(data=> {
-    console.log(data);
-}).catch(e=>{
-    console.log(e)
-})
+// database.select().orderBy("id","DESC").table("products").then(data=> {
+//     console.log(data);
+// }).catch(e=>{
+//     console.log(e)
+// });
 
